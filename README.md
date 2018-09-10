@@ -1,4 +1,4 @@
-# CMPE 273-lab2 - A Simple Calculator Application using gRPC 
+# CMPE 273 lab2 - Calculator Application using gRPC 
 
 ### Setting up the environment
 ```sh
@@ -26,9 +26,9 @@ $ python3 -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. calculator
 ### Running  gRPC Application
 ```sh
 # Run the server
-python3 calculator_server.py
+$ python3 calculator_server.py
 # In another terminal, run the client
-python3 calculator_client.py
+$ python3 calculator_client.py
 ```
 
 ### Congratulations! You’ve just run a client-server application with gRPC.
