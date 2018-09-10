@@ -1,0 +1,13 @@
+Terminal 1- 
+python3 calculator_server.py
+
+Terminal 2-
+python3 calculator_client.py
+Enter value 1:12
+Enter value 2:45
+Sum of the two numbers is 57
+
+python3 calculator_client.py
+Enter value 1:34
+Enter value 2:44
+Sum of the two numbers is 78
